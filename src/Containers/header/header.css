@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: column;
   width: 70%;
+  margin-bottom: 10rem;
 }
 
 .skillcore__header-content_title h1{
@@ -41,4 +42,25 @@
   background-image: url('../../Assets/trees.jpeg');
   background-size: cover;
   height: 20vh;
+}
+
+.skillcore__header-quote{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  /* text-align: center; */
+}
+
+.skillcore__header-quote h1{
+  font-size: 62px;
+  font-family: var(--font-family);
+  color: #d38395;
+}
+
+.skillcore__header-quote p{
+  font-size: 26px;
+  font-family: var(--font-family);
+  color: #d38395;
 }

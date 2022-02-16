@@ -1,8 +1,6 @@
 import React from 'react'
 
-import './header.css'
-
-import background from '../../Assets/trees.jpeg'
+import './header.css' 
 
 const Header = () => {
   return (
@@ -14,9 +12,10 @@ const Header = () => {
               </div>
           </div>
 
-          {/* <div className = 'skillcoure__header-footer_image'>
-
-          </div> */}
+          <div className = 'skillcore__header-quote'>
+              <h1>"There are no straight lines in nature or buisness."</h1>
+              <p>-Verne Harnish</p>
+          </div>
       </div>
   )
 }
