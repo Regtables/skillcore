@@ -24,7 +24,7 @@ body{
 
 @media screen and (max-width: 700px){
   .section__padding{
-    paddding: 4rem;
+    padding: 4rem;
   }
 
   .section__margin{
@@ -34,7 +34,7 @@ body{
 
 @media screen and (max-width: 550px){
   .section__padding{
-    paddding: 4rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .section__margin{

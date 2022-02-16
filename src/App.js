@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css'
 
 import { Navbar } from './Components';
-import { Header, About } from './Containers';
+import { Header, About, Services, Acts } from './Containers';
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
             <Header />
         <main>
             <About />
+            <Services />
         </main>
       </div>
   )
