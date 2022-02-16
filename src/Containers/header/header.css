@@ -2,7 +2,7 @@
   padding-top: 1rem;
   margin: 0 6rem;
   height: 1000px;
-  background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/trees.jpeg');
+  /* background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/trees.jpeg'); */
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@
   
   letter-spacing: -3px;
   /* color: white; */
-  color: #d38395;
+  /* color: #d38395; */
   /* color: var(--color-font); */
   margin-bottom: 1rem;
 }
@@ -32,7 +32,7 @@
 .skillcore__header-content_title p{
   font-family: var(--font-family);
   /* color: var(--color-font); */
-  color: #d38395;
+  /* color: #d38395; */
   font-size: 20px;
 }
 
