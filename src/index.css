@@ -6,5 +6,8 @@
 :root{
   --font-family: 'Manrope', sans-serif;
 
-  --color-bg: #64061a;
+  --color-bg: #660b1f;
+  --color-font: #ac334d;
+
+  --gradient-text: linear-gradient(to right top, #ffffff, #e4e4e4, #321e02, #002232, #0d2c49);
 }

@@ -1,0 +1,39 @@
+.skillcore__navbar{
+  padding: 1rem 6rem;
+}
+
+.skillcore__navbar-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillcore__navbar-links_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.skillcore__navbar-links_logo h1{
+  font-family: var(--font-family);
+  color: #FFF;
+  font-weight: 100;
+  font-size: 48px;
+}
+
+.skillcore__navbar-links_container{
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.skillcore__navbar-links_container p {
+  font-family: var(--font-family);
+  margin-right: 2rem;
+  font-size: 18px;
+  font-weight: 300;
+  color: #FFF;
+  cursor: pointer;
+}

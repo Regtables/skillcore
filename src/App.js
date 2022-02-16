@@ -8,12 +8,12 @@ import { Header, About, Services, Acts } from './Containers';
 const App = () => {
   return (
       <div className = 'app'>
-        <header>
+        <header className>
             <nav>
                 <Navbar />
             </nav>
-        </header>
             <Header />
+        </header>
         <main>
             <About />
             <Services />

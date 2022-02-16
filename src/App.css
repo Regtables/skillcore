@@ -14,6 +14,34 @@ body{
   background: var(--color-bg);
 }
 
+.linear__bg
+{
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+
+}
+
+.gradient__text{
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .section__padding{
   padding: 4rem 6rem;
 }
