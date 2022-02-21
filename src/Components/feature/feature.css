@@ -1,0 +1,40 @@
+.skillcore__features-container_feature{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.skillcore__features-container_feature-title{
+  flex: 1;
+  max-width: 150px;
+  /* margin-right: 1rem; */
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.skillcore__features-container_feature-title h2{
+  font-family: var(--font-family);
+  color: #fff;
+  font-weight: 400;
+  /* margin-bottom: 1rem; */
+}
+
+.skillcore__features-container_feature-title p {
+  margin: 0px auto;
+}
+
+
+
+.skillcore__features-container_feature-text{
+  flex: 2;
+  width: 100%;
+  /* max-width: 250px; */
+}
+
+.skillcore__features-container_feature-text p{
+  font-family: var(--font-family);
+  color: rgb(245, 179, 188);
+}

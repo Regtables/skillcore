@@ -10,6 +10,7 @@ const Links = () => {
           <p><a href = '#serices'>Services</a></p>
           <p><a href = '#acts'>Acts</a></p>
           <p><a href = '#contact'>Contact</a></p>
+        
       </>  
     
   )
@@ -26,7 +27,7 @@ const Navbar = () => {
                   <Links />
               </div>
           </div>
-      </div>
+        </div>
   )
 }
 

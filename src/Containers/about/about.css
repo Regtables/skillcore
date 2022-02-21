@@ -1,3 +1,34 @@
-/* .skillcore__about{
-  background-color: white;
-} */
+.skillcore__about{
+  display: flex;
+  background-color: var(--color-bg);
+  /* width: 100%; */
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.skillcore__about-heading{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.skillcore__about-heading h1{
+  display: flex;
+  font-family: var(--font-family);
+  font-size: 72px;
+  font-weight: 400;
+  /* font-style: italic; */
+  color: #fff;
+  width: 30%;
+}
+
+.skillcore__about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.skillcore__about-feature{
+  margin-top: 3rem;
+}

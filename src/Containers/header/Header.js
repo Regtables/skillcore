@@ -4,7 +4,7 @@ import './header.css'
 
 const Header = () => {
   return (
-      <div className = 'skillcore__header section__padding'>
+      <div className = 'skillcore__header '>
           <div className = 'skillcore__header-content'>
               <div className = 'skillcore__header-content_title'>
                   <h1>Let Skillcore grow your buisness for you.</h1>
