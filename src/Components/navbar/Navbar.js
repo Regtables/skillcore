@@ -7,7 +7,7 @@ const Links = () => {
       <>
           <p><a href = '#home'>Home</a></p>
           <p><a href = '#about'>About</a></p>
-          <p><a href = '#serices'>Services</a></p>
+          <p><a href = '#services'>Services</a></p>
           <p><a href = '#acts'>Acts</a></p>
           <p><a href = '#contact'>Contact</a></p>
         

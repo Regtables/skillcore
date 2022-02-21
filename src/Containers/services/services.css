@@ -1,0 +1,28 @@
+.skillcore__services{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.skillcore__services-heading{
+  margin: 2rem 0 4rem 6rem;
+}
+
+.skillcore__services-heading h1{
+  font-family: var(--font-family);
+  font-size: 82px;
+  font-weight: 500;
+}
+
+.skillcore__services-container_top{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skillcore__services-container_bottom{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
