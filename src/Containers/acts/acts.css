@@ -1,0 +1,46 @@
+.skillcore__acts{
+  margin: 8rem 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.skillcore__acts-heading_bar-top{
+  margin-right: 1rem;
+  padding: 0.5rem;
+  width: 1rem;
+  border-radius: 20px;
+  /* background:linear-gradient(90deg, rgba(119, 175, 93, 1) 0%, rgba(194, 255, 166, 1) 100%); */
+  /* background: rgba(119, 175, 93, 1); */
+  background: var(--color-font);
+}
+
+.skillcore__acts-heading{
+  display: flex;
+  justify-content:left;
+  margin: 4rem 0;
+  /* justify-content: center; */
+  /* width: 100%; */
+  /* text-align: center; */
+  margin-left: 4rem;
+  flex: 1;
+}
+
+.skillcore__acts-heading span{
+  color: var(--color-font);
+}
+
+.skillcore__acts-heading h1{
+  font-family: var(--font-family);
+  font-size: 68px;
+  padding: 1rem;
+  /* border: solid thistle 1rem; */
+  border-radius: 5px;
+  margin: auto 0;
+}
+
+.skillcore__acts-content{
+  display: flex;
+  flex: 1; 
+  flex-direction: column;
+  justify-content: space-between;
+}
