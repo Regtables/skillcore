@@ -1,5 +1,6 @@
 .skillcore__header-quote{
   display: flex;
+  padding: 14rem 4rem;
   flex-direction: column;
   width: 100%;
   justify-content: center;
@@ -11,6 +12,7 @@
   font-size: 62px;
   font-family: var(--font-family);
   color: var(--color-font);
+  text-overflow: clip;
 } 
 
 .skillcore__header-quote p{
