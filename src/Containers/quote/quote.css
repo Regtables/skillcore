@@ -1,0 +1,20 @@
+.skillcore__header-quote{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  /* text-align: center; */
+}
+
+.skillcore__header-quote h1{
+  font-size: 62px;
+  font-family: var(--font-family);
+  color: var(--color-font);
+} 
+
+.skillcore__header-quote p{
+  font-size: 26px;
+  font-family: var(--font-family);
+  color: #d38395;
+}

@@ -2,15 +2,42 @@
   display: flex;
   background-color: var(--color-bg);
   /* width: 100%; */
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 2rem;
+  margin-top: 4rem;
   border-radius: 10px;
+  
 }
 
 .skillcore__about-heading{
   display: flex;
   flex-direction: column;
   margin: 2rem;
+}
+
+.skillcore__about-heading_title{
+  display: flex;
+}
+
+.skillcore__about-heading_bar-top{
+  margin-right: 1rem;
+  padding: 0.5rem;
+  width: 1rem;
+  border-radius: 20px;
+  /* background:linear-gradient(90deg, rgba(119, 175, 93, 1) 0%, rgba(194, 255, 166, 1) 100%); */
+  /* background: rgba(119, 175, 93, 1); */
+  background: rgb(196, 128, 128);
+}
+
+.skillcore__about-heading_bar-bottom{
+  margin: 0 1rem;
+  margin-top: auto;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  height: 150px;
+  /* width: 150px; */
+  border-radius: 20px;
+  background-color: #FFE4E4;
 }
 
 .skillcore__about-heading h1{

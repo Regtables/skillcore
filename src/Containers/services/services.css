@@ -6,7 +6,12 @@
 
 
 .skillcore__services-heading{
-  margin: 2rem 0 4rem 6rem;
+  margin: 2rem 4rem 4rem 6rem;
+  /* text-align: right; */
+}
+
+.skillcore__services-heading span{
+  color: var(--color-font);
 }
 
 .skillcore__services-heading h1{
@@ -18,11 +23,20 @@
 .skillcore__services-container_top{
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillcore__services-container_middle{
+  width: 100%;
+  display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .skillcore__services-container_bottom{
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }

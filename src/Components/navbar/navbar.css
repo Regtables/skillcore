@@ -1,9 +1,10 @@
 .skillcore__navbar{
-  margin: 1rem auto;
-  padding: 0.5rem 6rem;
+  /* margin: 1rem auto; */
+  padding: 1rem 6rem;
   background-color: var(--color-bg);
-  border-radius: 20px;
-  width:95%;
+  /* border-radius: 20px; */
+  width:100%;
+  border-bottom: 5px rgb(194, 71, 87) solid;
   
 }
 
@@ -17,7 +18,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 3rem;
+  margin-right: 6rem;
+  border: white 3px solid;
 }
 
 .skillcore__navbar-links_logo h1{
@@ -26,7 +28,8 @@
   /* color: var(--color-bg); */
   color: white;
   font-weight: 100;
-  font-size: 48px;
+  font-size: 42px;
+  padding: 0.5rem 1rem;
 }
 
 .skillcore__navbar-links_container{
@@ -39,9 +42,36 @@
 .skillcore__navbar-links_container p {
   font-family: var(--font-family);
   margin-right: 2rem;
-  font-size: 28px;
+  font-size: 19px;
+ 
   font-weight: 100;
   color: #FFF;
   /* color: var(--color-bg); */
   cursor: pointer;
+  transition: border-bottom, 0.5s;
+}
+
+.skillcore__navbar-links_container p:hover{
+  border-bottom: 3px white solid;
+}
+
+.skillcore__navbar-links_btn{
+  /* background:linear-gradient(90deg, rgba(119, 175, 93, 1) 0%, rgb(147, 235, 106) 100%); */
+  background: rgba(119, 175, 93, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  width: 430px;
+  cursor: pointer;
+}
+
+.skillcore__navbar-links_btn p{
+  padding: 1.5rem 2rem;
+  width: 100%;
+  font-family: var(--font-family);
+  font-weight: 400;
+  /* color: #FFF; */
+  
 }

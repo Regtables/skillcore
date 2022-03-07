@@ -1,15 +1,27 @@
 import React from 'react'
+import Dot from '../dot/Dot'
 
 import './feature.css'
 
-const Feature = ({title, text, icon}) => {
+const Feature = ({title, text, icon, color}) => {
   return (
     <div className = 'skillcore__features-container_feature'>
-        <div className = 'skillcore__features-container_feature-title'>
-            <h2>{title}</h2>
+        <div className = 'skillcore__features-container_feature-left'>
+            <div className = 'skillcore__features-container-feature-left_title'>
+                <h2>{title}</h2>
+                <div className = 'skillcore__features-container_feature-title_underline' style = {{backgroundColor: color}}></div>
+            </div>
             <p>{icon}</p>
         </div>
-        <div className = 'skillcore__features-container_feature-text'>
+
+        <div className = 'skillcore__features-container_feature-dot'>
+            {/* <Dot 
+                color = {color}
+                size = {15}
+            /> */}
+        </div>
+
+        <div className = 'skillcore__features-container_feature-right'>
             <p>{text}</p>
         </div>
     </div>

@@ -15,22 +15,26 @@ a{
 } */
 
 .linear__bg
+
 {
 
   /* ff 3.6+ */
-  background:-moz-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+  background:-moz-linear-gradient(90deg, rgba(98, 13, 32, 1) 0%, rgba(81, 13, 28, 1) 100%); 
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+  background:-webkit-linear-gradient(90deg, rgba(98, 13, 32, 1) 0%, rgba(81, 13, 28, 1) 100%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+  background:-o-linear-gradient(90deg, rgba(98, 13, 32, 1) 0%, rgba(81, 13, 28, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#510D1C', endColorstr='#620D20', GradientType=0 );
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+  background:-ms-linear-gradient(90deg, rgba(98, 13, 32, 1) 0%, rgba(81, 13, 28, 1) 100%);
 
-  /* global 92%+ browsers support */
-  background:radial-gradient(circle at 2% 23%, rgba(177, 38, 38, 1) 0%, rgba(78, 8, 24, 1) 27%);
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, rgb(117, 39, 57) 0%, rgba(81, 13, 28, 1) 100%);
 
 }
 
@@ -39,6 +43,10 @@ a{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.margin__top{
+  margin-top: 6rem;
 }
 
 

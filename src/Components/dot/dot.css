@@ -1,0 +1,7 @@
+.skillcore__dot{
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 0;
+  border-radius: 50% / 50%;
+  background-color: rgb(119, 175, 93);
+}

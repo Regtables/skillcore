@@ -3,9 +3,16 @@
   min-height: 100px;
   width: 400px;
   height: 400px;
+  margin: 0 4rem;
   border-radius: 50%/50%;
   border: black 2px solid;
+  transition: border 0.5s, color 0.5s;
 }
+
+/* .skillcore__circle:hover{
+  border: red 2px solid;
+  color: red;
+} */
 
 .skillcore__circle-title{
   display: flex;
@@ -15,6 +22,7 @@
 
 .skillcore__circle-title h2{
   font-family: var(--font-family);
+  border-bottom: 5px solid var(--color-font);
 }
 
 .skillcore__circle-content{
