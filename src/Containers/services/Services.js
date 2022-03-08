@@ -14,7 +14,11 @@ const Services = () => {
       <div className = 'skillcore__services margin__top' id = 'services'>
           <div className = 'skillcore__services-heading'>
               <div className = 'skillcore__services-heading_bar-top'></div>
-              <h1>What <span>we</span> can do for <span>you</span>.</h1>
+              <div className = 'skillcore__services-heading_content'>
+                    <h1>What <span>we</span> can do for <span>you</span>.</h1>
+                    <p>At Skillcore we offer a wide range of services that we've practiced and refined over many years of service</p>
+              </div>
+              
           </div>
 
           <div className = 'skillcore__services-container'>

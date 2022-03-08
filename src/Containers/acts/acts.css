@@ -16,6 +16,7 @@
 
 .skillcore__acts-heading{
   display: flex;
+  /* flex-direction: column; */
   justify-content:left;
   margin: 4rem 0;
   /* justify-content: center; */
@@ -29,13 +30,18 @@
   color: var(--color-font);
 }
 
-.skillcore__acts-heading h1{
+.skillcore__acts-heading_content h1{
   font-family: var(--font-family);
   font-size: 68px;
   padding: 1rem;
   /* border: solid thistle 1rem; */
   border-radius: 5px;
   margin: auto 0;
+}
+
+.skillcore__acts-heading_content p{
+  font-family: var(--font-family);
+  font-weight: 100;
 }
 
 .skillcore__acts-content{

@@ -1,0 +1,49 @@
+.skillcore__cta{
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  border-radius: 15px;
+  background:linear-gradient(0deg, rgba(5, 5, 5, 0.7), rgba(0, 0, 0, 0.6)), url('../../Assets/cta.jpeg');
+  background-size: cover;
+  background-position: center;
+  /* background: #00C9CA; */
+}
+
+.skillcore__cta-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.skillcore__cta-content h3{
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(206, 159, 159);
+  margin-left: 2rem;
+}
+
+.skillcore__cta-content p{
+  font-family: var(--font-family);
+  color: rgb(206, 159, 159);
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 100;  
+}
+
+.skillcore__cta-btn{
+  padding: 1rem 2rem;
+  background: #00DFDE;
+  border-radius: 30px;
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+.skillcore__cta-btn p{
+  font-family: var(--font-family);
+  color: black;
+}

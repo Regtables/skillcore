@@ -25,10 +25,18 @@
   color: var(--color-font);
 }
 
-.skillcore__services-heading h1{
+.skillcore__services-heading_content h1{
   font-family: var(--font-family);
   font-size: 82px;
   font-weight: 500;
+  
+}
+
+.skillcore__services-heading_content p{
+  font-family: var(--font-family);
+  font-weight: 100;
+  margin-top: 0;
+  margin-left: 1rem;
 }
 
 .skillcore__services-container_top{

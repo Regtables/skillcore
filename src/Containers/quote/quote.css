@@ -1,6 +1,6 @@
-.skillcore__header-quote{
+.skillcore__quote{
   display: flex;
-  padding: 8rem 4rem;
+  padding: 2rem 4rem;
   flex-direction: column;
   width: 100%;
   justify-content: center;
@@ -8,15 +8,19 @@
   /* text-align: center; */
 }
 
-.skillcore__header-quote h1{
+.skillcore__quote h1{
   font-size: 62px;
   font-family: var(--font-family);
   color: var(--color-font);
   text-overflow: clip;
 } 
 
-.skillcore__header-quote p{
+.skillcore__quote p{
   font-size: 26px;
   font-family: var(--font-family);
   color: #d38395;
+}
+
+.skillcore__quote-dots{
+  margin: 0 auto;
 }
