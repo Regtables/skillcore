@@ -1,6 +1,6 @@
 .skillcore__about{
   display: flex;
-  background-color: var(--color-bg);
+  background-color: black;
   /* width: 100%; */
   padding: 0.5rem;
   margin: 2rem;
@@ -25,8 +25,8 @@
   width: 1rem;
   border-radius: 20px;
   /* background:linear-gradient(90deg, rgba(119, 175, 93, 1) 0%, rgba(194, 255, 166, 1) 100%); */
-  /* background: rgba(119, 175, 93, 1); */
-  background: rgb(196, 128, 128);
+  background: rgba(119, 175, 93, 1);
+  /* background: rgb(196, 128, 128); */
 }
 
 .skillcore__about-heading_bar-bottom{

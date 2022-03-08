@@ -4,9 +4,20 @@
   width: 100%;
 }
 
+.skillcore__services-heading_bar-top{
+  margin-right: 1rem;
+  padding: 0.5rem;
+  width: 1rem;
+  border-radius: 20px;
+  /* background:linear-gradient(90deg, rgba(119, 175, 93, 1) 0%, rgba(194, 255, 166, 1) 100%); */
+  background: #ac334d;
+  /* background: rgb(196, 128, 128); */
+}
+
 
 .skillcore__services-heading{
-  margin: 2rem 4rem 4rem 6rem;
+  margin: 2rem 4rem 4rem 4rem;
+  display: flex;
   /* text-align: right; */
 }
 

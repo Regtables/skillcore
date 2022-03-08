@@ -1,10 +1,11 @@
 .skillcore__navbar{
   /* margin: 1rem auto; */
-  padding: 1rem 6rem;
+  padding: 0.5rem 6rem;
   background-color: var(--color-bg);
   /* border-radius: 20px; */
   width:100%;
-  border-bottom: 5px rgb(194, 71, 87) solid;
+  /* background: white; */
+  /* border-bottom: 5px rgb(194, 71, 87) solid; */
   
 }
 
@@ -20,6 +21,7 @@
   align-items: center;
   margin-right: 6rem;
   border: white 3px solid;
+  border: #fff 3px solid;
 }
 
 .skillcore__navbar-links_logo h1{
@@ -42,9 +44,9 @@
 .skillcore__navbar-links_container p {
   font-family: var(--font-family);
   margin-right: 2rem;
-  font-size: 19px;
+  font-size: 22px;
  
-  font-weight: 100;
+  font-weight: 200;
   color: #FFF;
   /* color: var(--color-bg); */
   cursor: pointer;

@@ -1,40 +1,35 @@
 .skillcore__header{
-  /* padding-top: 2rem;
-  margin: 0 1rem; */
-  padding: 1;
-  
-  /* background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/trees.jpeg'); */
+  padding-top: 4rem;
+  margin: 1rem 1rem;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/trees2.jpeg');
   background-size: cover;
-  /* border-radius: 10px; */
+  border-radius: 10px;
   
 }
 
 .skillcore__header-content{
-  width: 100%;
-  margin: 1;
-  /* border-radius: 20px; */
-  padding: 2rem 8rem;
-  background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/trees2.jpeg');
-  background-size: cover;
-
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 20rem;
 }
 
-.skillcore__header-content_title{
+.skillcore__header-title{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   /* margin-top: 1rem; */
-  margin-bottom: 25rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
-.skillcore__header-content_title h1{
+.skillcore__header-title h1{
   font-family: var(--font-family);
   font-size: 76px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 76px;
   /* letter-spacing: -3px; */
   margin: auto auto;
@@ -45,20 +40,22 @@
   margin-bottom: 3rem;
 }
 
-.skillcore__header-content_title p{
+.skillcore__header-content_text{
+  width: 40%;
+}
+
+.skillcore__header-content_text p{
   font-family: var(--font-family);
   color: var(--color-font);
   /* color: #d38395; */
   /* color: white; */
   color: rgb(245, 179, 188);
   letter-spacing: 0.5px;
-
   font-size: 20px;
+  width: 100%;
 }
 
-.skillcoure__header-footer_image{
-  width: 100%;
-  background-image: url('../../Assets/trees.jpeg');
-  background-size: cover;
-  height: 20vh;
+.skillcore__header-content_img{
+  width: 40%;
 }
+

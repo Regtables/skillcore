@@ -16,17 +16,17 @@ const Acts = () => {
               <Act 
                   title = 'POPI act'
                   text = 'The POPI Act is a comprehensive privacy law that is mandatory for all businesses within the private and public sector that process personal information in South Africa. It seeks to protect and regulate the processing of personal information, falling into the broader Constitutional right to privacy'
-                  color = 'rgb(0 223 222 / 38%)'
+                  color = 'rgb(0 223 222 / 48%)'
               />
                <Act 
                   title = 'FAIS act'
                   text = 'The POPI Act is a comprehensive privacy law that is mandatory for all businesses within the private and public sector that process personal information in South Africa. It seeks to protect and regulate the processing of personal information, falling into the broader Constitutional right to privacy.'
-                  color = 'rgb(42 187 130 / 38%)'
+                  color = 'rgb(42 187 130 / 48%)'
               />
                <Act 
                   title = 'FICA act'
                   text = 'FICA is an abbreviation for the Financial Intelligence Centre Act 38 of 2001 (as amended). The Act was instituted in order to fight financial crime such as money laundering, fraud, tax evasion, terrorist financing activities and identity theft.'
-                  color = 'rgb(235 229 49 / 38%)'
+                  color = 'rgb(235 229 49 / 48%)'
               />
           </div>
       </div>

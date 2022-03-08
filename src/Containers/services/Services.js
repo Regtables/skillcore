@@ -13,6 +13,7 @@ const Services = () => {
   return (
       <div className = 'skillcore__services margin__top' id = 'services'>
           <div className = 'skillcore__services-heading'>
+              <div className = 'skillcore__services-heading_bar-top'></div>
               <h1>What <span>we</span> can do for <span>you</span>.</h1>
           </div>
 
