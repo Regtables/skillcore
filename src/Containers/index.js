@@ -5,3 +5,4 @@ export { default as Acts } from './acts/Acts';
 export { default as Quote } from './quote/Quote';
 export { default as CTA } from './CTA/CTA';
 export { default as Contact } from './contact/Contact';
+export { default as Footer } from './footer/Footer' 
