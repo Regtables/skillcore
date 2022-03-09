@@ -22,7 +22,7 @@
   /* justify-content: center; */
   /* width: 100%; */
   /* text-align: center; */
-  margin-left: 4rem;
+  margin-left: 2rem;
   flex: 1;
 }
 
@@ -49,4 +49,47 @@
   flex: 1; 
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1110px) {
+  .skillcore__acts-heading_content{
+    margin: auto 0;
+  }
+
+  .skillcore__acts-heading_content h1{
+    font-size: 62px;
+  }
+  .skillcore__acts-heading_content p{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .skillcore__acts-heading_content h1{
+    font-size: 52px;
+  }
+
+  .skillcore__acts-heading_content p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__acts{
+    margin-top: 4rem;
+    flex-direction: column;
+  }
+
+  .skillcore__acts-heading{
+    margin-left: 1rem;
+  }
+
+  .skillcore__acts-heading_content h1{
+    font-size: 42px;
+    padding-left: 0;
+  }
+
+  .skillcore__acts-heading_content p{
+    padding-right: 1rem;
+  }
 }

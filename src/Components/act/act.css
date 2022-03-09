@@ -1,19 +1,38 @@
-.skillcore__act-content-act{
+.skillcore__acts-content-act{
   margin: 0rem 2rem 1rem 0rem;
   padding: 1rem;
   border-radius: 3px;
 }
 
-.skillcore__act-content-act_title{
+.skillcore__acts-content-act_title{
   margin-bottom: 1rem;
 }
 
-.skillcore__act-content-act_title h3{
+.skillcore__acts-content-act_title h3{
   font-family: var(--font-family);
   border-bottom: 3px solid var(--color-bg);
   width: 80px;
 }
 
-.skillcore__act-content-act_text p{
+.skillcore__acts-content-act_text p{
   font-family: var(--font-family);
 }
+
+@media screen and (max-width: 1110px) {
+  .skillcore__acts-content-act_text p{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .skillcore__acts-content-act{
+    margin: 0rem 2rem 1rem 0rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__acts-content-act{
+    margin: 0.5rem 1rem;
+  }
+}
+

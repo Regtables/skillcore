@@ -4,11 +4,11 @@ import './act.css'
 
 const Act = ({title, text, color}) => {
   return (
-      <div className = 'skillcore__act-content-act' style = {{background: color}}>
-          <div className = 'skillcore__act-content-act_title'>
+      <div className = 'skillcore__acts-content-act' style = {{background: color}}>
+          <div className = 'skillcore__acts-content-act_title'>
               <h3>{title}</h3>
           </div>
-          <div className = 'skillcore__act-content-act_text'>
+          <div className = 'skillcore__acts-content-act_text'>
               <p>{text}</p>
           </div>
       </div>
