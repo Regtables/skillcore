@@ -11,7 +11,7 @@ const About = () => {
       <div className = 'skillcore__about linear__bg' id = 'about'>
           <div className = 'skillcore__about-heading'>
               <div className = 'skillcore__about-heading_title'>
-                    {/* <div className = 'skillcore__about-heading_bar-top'></div> */}
+                    <div className = 'skillcore__about-heading_bar-top'></div>
                     <h1>Why choose Skillcore?</h1>
               </div>
               <div className = 'skillcore__about-feature'>

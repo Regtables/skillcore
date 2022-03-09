@@ -1,9 +1,10 @@
 .skillcore__cta{
   height: 170px;
+  margin: 10rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 7rem;
   border-radius: 15px;
   background:linear-gradient(0deg, rgba(5, 5, 5, 0.7), rgba(0, 0, 0, 0.6)), url('../../Assets/cta.jpeg');
   background-size: cover;

@@ -1,6 +1,7 @@
 .skillcore__quote{
   display: flex;
-  padding: 2rem 4rem;
+  padding: 4rem 4rem;
+  margin-top: 4rem;
   flex-direction: column;
   width: 100%;
   justify-content: center;
