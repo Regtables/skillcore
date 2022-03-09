@@ -1,0 +1,15 @@
+.skillcore__sectionHeading{
+  margin: 2rem;
+  margin-left: 4rem;
+  opacity: 0.5;
+}
+
+.skillcore__sectionHeading p{
+  max-width: 200px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  font-family: var(--font-family);
+}

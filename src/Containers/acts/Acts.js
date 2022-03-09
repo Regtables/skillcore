@@ -1,12 +1,14 @@
 import React from 'react'
 
 import Act from '../../Components/act/Act'
+import SectionHeading from '../../Components/sectionHeading/SectionHeading'
 
 import './acts.css'
 
 const Acts = () => {
   return (
       <div className = 'skillcore__acts' id = 'acts'>
+          
           <div className = 'skillcore__acts-heading'>
               <div className = 'skillcore__acts-heading_bar-top'></div>
               <div className = 'skillcore__acts-heading_content'>

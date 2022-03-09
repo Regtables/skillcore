@@ -5,7 +5,8 @@ import { GiBookshelf } from 'react-icons/gi'
 import { GrUserManager } from 'react-icons/gr'
 
 import Dot from '../../Components/dot/Dot';
-import Circle from '../../Components/circle/Circle'
+import Circle from '../../Components/circle/Circle';
+import SectionHeading from '../../Components/sectionHeading/SectionHeading';
 
 import './services.css'
 
@@ -15,7 +16,7 @@ const Services = () => {
           <div className = 'skillcore__services-heading'>
               <div className = 'skillcore__services-heading_bar-top'></div>
               <div className = 'skillcore__services-heading_content'>
-                    <h1>What <span>we</span> can do for <span>you</span>.</h1>
+                    <h1>What <span className = 'fade-in'>we</span> can do for <span>you</span>.</h1>
                     <p>At Skillcore we offer a wide range of services that we've practiced and refined over many years of service</p>
               </div>
               

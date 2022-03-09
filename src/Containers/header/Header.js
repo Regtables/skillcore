@@ -8,7 +8,7 @@ const Header = () => {
   return (
         <div className = 'skillcore__header '>
             <div className = 'skillcore__header-title'>
-                <h1>Let Skillcore grow your buisness for you.</h1>
+                <h1 className = 'fade-in'>Let Skillcore grow your buisness for you.</h1>
             </div>
             <div className = 'skillcore__header-content'>
                 <div className = 'skillcore__header-content_text'>
