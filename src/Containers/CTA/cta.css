@@ -2,6 +2,7 @@
   height: 170px;
   margin: 10rem 2rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-top: 7rem;
@@ -47,4 +48,40 @@
 .skillcore__cta-btn p{
   font-family: var(--font-family);
   color: black;
+}
+
+@media screen and (max-width: 870px) {
+  .skillcore__cta{
+    flex-direction: column;
+    margin: 7rem 2rem
+  }
+
+  .skillcore__cta-content{
+    align-items: center;
+  }
+
+  .skillcore__cta-content p{
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .skillcore__cta-btn{
+    margin-right: 0;
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__cta{
+    margin: 5rem 2rem;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+
+  }
+
+  .skillcore__cta-content h3{
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
 }

@@ -3,6 +3,7 @@
   flex-direction: row;
   width: 100%;
   margin-bottom: 1rem;
+  /* flex-wrap: wrap; */
 }
 
 .skillcore__features-container_feature-left{
@@ -64,4 +65,30 @@
   margin-top: 0.5rem;
   left: 0;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .skillcore__features-container-feature-left_title h2{
+    font-size: 18px;
+  }
+
+  .skillcore__features-container_feature-right p{
+    font-size: 14px;
+  }
+}
+
+@media screen  and (max-width: 770px){
+  .skillcore__features-container-feature-left_title h2{
+    font-size: 16px;
+  }
+
+  .skillcore__features-container_feature-right p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .skillcore__features-container_feature-left{
+    margin-right: 1rem;
+  }
 }

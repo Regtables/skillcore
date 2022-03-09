@@ -35,11 +35,42 @@
   margin: 0px auto;
 }
 
-.skillcore__circle-content p{
+.skillcore__circle-content_text {
   font-family: var(--font-family);
   margin: 1rem auto;
 }
 
 .skillcore__circle-content_icon p{
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 970px) {
+  .skillcore__circle{
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__circle{
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+  }
+
+  .skillcore__circle-title{
+    margin-bottom: 1rem;
+  }
+
+  .skillcore__circle-title h2{
+    font-size: 20px;
+  }
+
+  .skillcore__circle-content_text{
+    font-size: 14px;
+    margin: 1;
+  }
+
+  .skillcore__circle-content_icon p{
+    margin-bottom: 1rem;
+  }
 }

@@ -59,3 +59,49 @@
   width: 40%;
 }
 
+@media screen and (max-width: 950px) {
+  .skillcore__header-title h1{
+    font-size: 56px;
+  }
+
+  .skillcore__header-content_text p{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__header{
+    margin: 1rem;
+  }
+  .skillcore__header-content{
+    flex-direction: column;
+  }
+
+  .skillcore__header-content_text{
+    width: 90%;
+    text-align: center;
+  }
+
+  .skillcore__header-title h1{
+    font-size: 48px;
+    line-height: 46px;
+    padding: 1rem;
+  }
+
+  .skillcore__header-title{
+    margin-bottom: 0;
+  }
+
+  .skillcore__header-content_text p{
+    font-size: 14px;
+  }
+
+  .skillcore__header-content_dots{
+    display: flex;
+    margin-top: 1rem;
+
+  }
+}
+
+
+

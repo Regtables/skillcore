@@ -18,10 +18,10 @@ const App = () => {
             <About />
             <Services />
             <CTA />
-            <Acts />
+            {/* <Acts />
             <Quote />
             <Contact />
-            <Footer />
+            <Footer /> */}
         </main>
       </div>
   )

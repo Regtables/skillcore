@@ -59,3 +59,35 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 970px) {
+  .skillcore__services-heading h1{
+    font-size: 70px;
+    line-height: 72px;
+    margin-bottom: 1rem;
+  }
+
+  .skillcore__services-container_middle-dots{
+    display: flex;
+  }
+
+  .skillcore__services-container_middle{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__services-heading h1{
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .skillcore__services-heading p{
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .skillcore__services-container_top{
+    margin: 0;
+  }
+}

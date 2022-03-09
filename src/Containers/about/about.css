@@ -2,10 +2,11 @@
   display: flex;
   background-color: black;
   /* width: 100%; */
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 2rem;
   margin-top: 4rem;
   border-radius: 10px;
+  /* flex-wrap: wrap; */
   
 }
 
@@ -58,4 +59,65 @@
 
 .skillcore__about-feature{
   margin-top: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .skillcore__about-heading h1{
+    font-size: 58px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .skillcore__about{
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+  }
+
+  .skillcore__about-heading h1{
+    width: 100%;
+    font-size: 48px;
+  }
+
+  .skillcore__about-heading{
+    margin-bottom: 1rem;
+  }
+
+  .skillcore__about-container{
+    margin-left: 2rem;
+  }
+}
+
+/* @media screen and (max-width: 770px) {
+  .skillcore__about-heading h1{
+    width: 100%;
+    font-size: 48px;
+  }
+
+  .skillcore__about-heading{
+    margin-bottom: 1rem;
+  }
+
+  .skillcore__about-container{
+    margin-left: 2rem;
+  }
+} */
+
+@media screen and (max-width: 450px) {
+  .skillcore__about{
+    margin: 4rem 1rem;
+    padding-right: 1rem;
+    
+  }
+  .skillcore__about-heading{
+    margin: 1rem;
+  }
+
+  .skillcore__about-heading h1{
+    font-size: 48px;
+  }
+
+  .skillcore__about-container{
+    margin: 0 1rem;
+  }
 }

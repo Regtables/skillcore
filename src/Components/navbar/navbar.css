@@ -10,6 +10,7 @@
 }
 
 .skillcore__navbar-links{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +38,7 @@
 .skillcore__navbar-links_container{
   width: 100%;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -70,10 +71,57 @@
 }
 
 .skillcore__navbar-links_btn p{
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   width: 100%;
   font-family: var(--font-family);
   font-weight: 400;
   /* color: #FFF; */
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .skillcore__navbar-links_btn p{
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .skillcore__navbar-links_logo h1{
+    font-size: 30px;
+  }
+
+  .skillcore__navbar-links_container p{
+    font-size: 18px;
+  }
+
+  .skillcore__navbar-links_btn p{
+    font-size: 12px;
+    padding: 1rem;
+  }
+
+  .skillcore__navbar-links_logo{
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .skillcore__navbar-links_btn{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .skillcore__navbar{
+    padding: 2.5rem 6rem;
+  }
+  .skillcore__navbar-links_logo{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__navbar-links_container p{
+    margin-right: 1rem;
+  }
   
 }

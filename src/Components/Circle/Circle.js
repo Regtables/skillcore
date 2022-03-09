@@ -11,7 +11,7 @@ const Circle = ({title, icon, text}) => {
 
         <div className = 'skillcore__circle-content'>
             <p className = 'skillcore__circle-content_icon'>{icon}</p>
-            <p>{text}</p>
+            <p className = 'skillcore__circle-content_text'>{text}</p>
         </div>
     </div>
   )

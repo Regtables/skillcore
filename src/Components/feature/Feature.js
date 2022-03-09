@@ -16,13 +16,6 @@ const Feature = ({title, text, icon, color}) => {
             <p>{icon}</p>
         </div>
 
-        <div className = 'skillcore__features-container_feature-dot'>
-            {/* <Dot 
-                color = {color}
-                size = {15}
-            /> */}
-        </div>
-
         <div className = 'skillcore__features-container_feature-right'>
             <p>{text}</p>
         </div>
