@@ -25,3 +25,22 @@
 .skillcore__quote-dots{
   margin: 0 auto;
 }
+
+@media screen and (max-width: 900px) {
+  .skillcore__quote{
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .skillcore__quote-dots{
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__quote h1{
+    font-size: 48px;
+    margin-bottom: 0.2rem;
+  }
+}

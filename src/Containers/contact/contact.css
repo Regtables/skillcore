@@ -97,5 +97,12 @@
   width: 100%;
 }
 
-
+@media screen and (max-width: 450px) {
+  .skillcore__contact-content_form-body{
+    width: 90%;
+  }
+  .skillcore__contact-heading h3{
+    font-size: 52px;
+  }
+}
 
