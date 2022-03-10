@@ -12,7 +12,7 @@ import './services.css'
 
 const Services = () => {
   return (
-      <div className = 'skillcore__services margin__top' id = 'services'>
+      <div className = 'skillcore__services' id = 'services'>
           <div className = 'skillcore__services-heading' role = 'heading'>
               <div className = 'skillcore__services-heading_bar-top' role = 'presentation'></div>
               <div className = 'skillcore__services-heading_content'>

@@ -1,8 +1,12 @@
 import React from 'react';
 
+import { GiDandelionFlower, GiSunflower, GiPineTree, GiSeedling } from 'react-icons/gi';
+import { FiSun } from 'react-icons/fi'
+import { FaSeedling } from 'react-icons/fa'
+
 import './App.css'
 
-import { Navbar } from './Components';
+import { Navbar, Partition } from './Components';
 import { Header, About, Services, Acts, Quote, CTA, Contact, Footer } from './Containers';
 
 const App = () => {
@@ -13,12 +17,16 @@ const App = () => {
                 <Navbar />
             </nav>
             <Header />
+            <Partition icon = {<GiSunflower size = {30}/>} />
         </header>
         <main>
             <About />
+            <Partition icon = {<GiPineTree size = {30} />} top />
             <Services />
             <CTA />
+            <Partition icon = {<FaSeedling size = {30} />} />
             <Acts />
+            <Partition icon = {<FiSun size = {30}/>} top/>
             <Quote />
             <Contact />
         </main>

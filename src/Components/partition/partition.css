@@ -1,0 +1,28 @@
+.skillcore__partition{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem 0;
+}
+
+.skillcore__partition-container{
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid black;
+  border-radius: 50% / 50% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.skillcore__partition-container p{
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 450px) {
+  .skillcore__partition{
+    margin: 4rem 0;
+  }
+}

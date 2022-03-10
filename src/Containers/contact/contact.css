@@ -78,6 +78,11 @@
   cursor: pointer;
   background: #00DFDE;
   font-weight: 100;
+  transition: background 1s;
+}
+
+#submit:hover{
+  background: #2ABB82;
 }
 
 .skillcore__contact-content_form-body input:focus{
