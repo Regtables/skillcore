@@ -13,7 +13,7 @@ const Feature = ({title, text, icon, color}) => {
                 {/* <div className = 'skillcore__features-container_feature-title_underline' style = {{backgroundColor: color}}></div> */}
                 <Bar color = {color}/>
             </div>
-            <p>{icon}</p>
+            <p aria-label = 'icon'>{icon}</p>
         </div>
 
         <div className = 'skillcore__features-container_feature-right'>

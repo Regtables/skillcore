@@ -8,9 +8,8 @@ import './acts.css'
 const Acts = () => {
   return (
       <div className = 'skillcore__acts' id = 'acts'>
-          
-          <div className = 'skillcore__acts-heading'>
-              <div className = 'skillcore__acts-heading_bar-top'></div>
+          <div className = 'skillcore__acts-heading' role ='heading'>
+              <div className = 'skillcore__acts-heading_bar-top' role = 'presentation'></div>
               <div className = 'skillcore__acts-heading_content'>
                     <h1>Do you need help with any of these <span>Acts?</span></h1>
                     <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.</p>

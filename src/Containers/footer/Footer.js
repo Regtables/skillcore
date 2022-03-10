@@ -6,17 +6,17 @@ import './footer.css'
 
 const Footer = () => {
   return (
-      <div className = 'skillcore__footer'>
-          <div className = 'skillcore__footer-heading'>
+      <div className = 'skillcore__footer' role = 'contentinfo'>
+          <div className = 'skillcore__footer-heading' role = 'heading'>
               <h2>Here, you will only find care, commitment and excelence</h2>
               <h3>Join our Skillcore family</h3>
               <p>We will take care it</p>
-              <div className = 'skillcore__footer-dots'>
+              <div className = 'skillcore__footer-dots' role = 'presentation'>
                   <Dot color = '#00DFDE' />
                   <Dot color = '#2ABB82' />
                   <Dot color = 'rgb(225, 208, 90)' />
               </div>
-              <div className = 'skillcore__footer-heading_logo'>
+              <div className = 'skillcore__footer-heading_logo' role = 'presentation'>
                   insert logo
               </div>
           </div>

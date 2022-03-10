@@ -6,10 +6,10 @@ import './quote.css'
 
 const Quote = ({text}) => {
   return (
-      <div className = 'skillcore__quote'>
+      <div className = 'skillcore__quote' aria-label = 'aside'>
           <h1>"There are no straight lines in nature or buisness."</h1>
           <p>-Verne Harnish</p>
-          <div className = 'skillcore__quote-dots'>
+          <div className = 'skillcore__quote-dots' role = 'presentation'>
               <Dot color = '#99280E' />
               <Dot color = '#2ABB82' />
               <Dot color = '#00DFDE' />

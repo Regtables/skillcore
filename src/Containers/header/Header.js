@@ -6,8 +6,8 @@ import './header.css'
 
 const Header = () => {
   return (
-        <div className = 'skillcore__header '>
-            <div className = 'skillcore__header-title'>
+        <div className = 'skillcore__header' role = 'banner'>
+            <div className = 'skillcore__header-title' role = 'heading'>
                 <h1 className = 'fade-in'>Let Skillcore grow your buisness for you.</h1>
             </div>
             <div className = 'skillcore__header-content'>
@@ -15,7 +15,7 @@ const Header = () => {
                     <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.</p>
                 </div>
 
-                <div className = 'skillcore__header-content_dots'>
+                <div className = 'skillcore__header-content_dots' role = 'presentation'>
                     <Dot color = '#62193C' size = {20} />
                     <Dot color = '#d99431'size = {20} />
                     <Dot color = '#00DFDE' size = {20}/>

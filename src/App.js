@@ -21,8 +21,10 @@ const App = () => {
             <Acts />
             <Quote />
             <Contact />
-            <Footer />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
   )
 }

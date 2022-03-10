@@ -9,7 +9,7 @@ import './about.css'
 const About = () => {
   return (
       <div className = 'skillcore__about linear__bg' id = 'about'>
-          <div className = 'skillcore__about-heading'>
+          <div className = 'skillcore__about-heading' role = 'heading'>
               <div className = 'skillcore__about-heading_title'>
                     <div className = 'skillcore__about-heading_bar-top'></div>
                     <h1>Why choose Skillcore?</h1>
