@@ -107,6 +107,34 @@
   
 }
 
+.skillcore__navbar-contact{
+  width: 100%;
+  height: 200vh;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  background: var(--color-bg);
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.26);
+}
+
+.skillcore__navbar-contact_container{
+  width: 70%;
+  z-index: 5;
+  position: absolute;
+  top: 50px;
+  background: var(--color-bg);
+  border-radius: 10px;
+}
+
+.skillcore__navbar-contact_close{
+  padding: 1rem;
+  cursor: pointer;
+  width: 50px;
+}
+
+
 @media screen and (max-width: 1200px) {
   .skillcore__navbar-links_btn p{
     padding: 0.5rem 1rem;

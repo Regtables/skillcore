@@ -1,7 +1,7 @@
 .skillcore__header{
   padding-top: 4rem;
   margin: 1.5rem 1.5rem 0.5rem 1.5rem;
-  background:linear-gradient(180deg, rgba(44, 22, 22, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/trees2.jpeg');
+  background:linear-gradient(180deg, rgba(44, 22, 22, 0.6), rgba(0, 0, 0, 0.6)), url('../../Assets/trees2.jpeg');
   background-size: cover;
   border-radius: 10px;
   
@@ -17,7 +17,7 @@
 
 .skillcore__header-title{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -33,6 +33,7 @@
   line-height: 76px;
   /* letter-spacing: -3px; */
   margin: auto auto;
+  padding: 0 2rem;
   /* color: white; */
   /* color: #ad6f6f; */
   color: var(--color-font);

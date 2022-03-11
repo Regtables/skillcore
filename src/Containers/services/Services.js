@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { IoPersonAddOutline } from 'react-icons/io5'
 import { VscLaw } from 'react-icons/vsc';
 import { GiBookshelf } from 'react-icons/gi'
@@ -11,12 +13,15 @@ import SectionHeading from '../../Components/sectionHeading/SectionHeading';
 import './services.css'
 
 const Services = () => {
+  useEffect(()=> {
+    Aos.init({duration: 1000})
+  }, [])
   return (
       <div className = 'skillcore__services' id = 'services'>
           <div className = 'skillcore__services-heading' role = 'heading'>
               <div className = 'skillcore__services-heading_bar-top' role = 'presentation'></div>
               <div className = 'skillcore__services-heading_content'>
-                    <h1>What <span className = 'fade-in'>we</span> can do for <span>you</span>.</h1>
+                    <h1>What <span data-aos = 'fade-in' data-aos-delay = '200' data-aos-once = 'true'>we</span> can do for <span data-aos = 'fade-in' data-aos-delay = '800' data-aos-once = 'true'>you.</span></h1>
                     <p>At Skillcore we offer a wide range of services that we've practiced and refined over many years of service</p>
               </div>
               

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { Contact } from '../../Containers'
 
 import { VscMenu, VscClose } from 'react-icons/vsc'
 
@@ -22,8 +22,14 @@ const Links = () => {
   )
 }
 
-const Navbar = () => {
+const Navbar = ({setAppToggleContact}) => {
   const [ menu, setMenu ] = useState(false)
+  const [ toggleContact, setToggleContact ] = useState(false)
+
+  function handleClick(){
+      setToggleContact(true)
+      setAppToggleContact(true)
+  }
 
   return (
       <div className = 'skillcore__navbar linear__bg' role = 'navigation'>
@@ -34,9 +40,20 @@ const Navbar = () => {
               <div className = 'skillcore__navbar-links_container'>
                   <Links />
               </div>
-              <div className = 'skillcore__navbar-links_btn' role = 'button'>
+              <div className = 'skillcore__navbar-links_btn' role = 'button' onClick = {() => handleClick()}>
                   <p>Request Appointment</p>
               </div>
+                {
+                  toggleContact && (
+                    <div className = 'skillcore__navbar-contact fade-in'>
+                        <div className = 'skillcore__navbar-contact_container scale-up-center'>
+                            <div className = 'skillcore__navbar-contact_close'>
+                                <VscClose size = {32} color = '#FFF' onClick = {() => setToggleContact(false)}/>
+                            </div>
+                            <Contact />
+                        </div>
+                    </div>
+                )}
           </div>
           <div className = 'skillcore__navbar-menu'>
               {menu

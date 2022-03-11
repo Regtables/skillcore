@@ -7,7 +7,7 @@
   align-items: center;
   margin-top: 7rem;
   border-radius: 15px;
-  background:linear-gradient(0deg, rgba(5, 5, 5, 0.7), rgba(0, 0, 0, 0.6)), url('../../Assets/trees.jpeg');
+  background:linear-gradient(0deg, rgba(5, 5, 5, 0.4), rgba(0, 0, 0, 0.4)), url('../../Assets/trees.jpeg');
   background-size: cover;
   background-position: center;
   /* background: #00C9CA; */
@@ -38,22 +38,26 @@
 }
 
 .skillcore__cta-btn{
-  padding: 1rem 2rem;
-  background: #00DFDE;
-  border-radius: 30px;
+  
   margin-right: 5rem;
-  cursor: pointer;
-  transition: background 1s, color 1s;
+  
 }
 
-.skillcore__cta-btn:hover{
-  color: #00DFDE;
-  background: #ac334d;
+.skillcore__cta-btn p:hover{
+  background: #00DFDE;
 }
 
 .skillcore__cta-btn p{
   font-family: var(--font-family);
+  padding: 1rem 2rem;
   color: black;
+  padding: 1rem 2rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 1s;
+  background: #2ABB82;
 }
 
 @media screen and (max-width: 870px) {
